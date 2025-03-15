@@ -6,13 +6,11 @@ The backend acts as a server environment where files are stored.
 The UI allows users to interact with folders and files via buttons.
 Users can click on files to send a request to the server, whereupon the files are copied to a local directory.
 
-##Functions
-OOP Design: The code is organized using OOP principles, which ensures clean and maintainable code.
-Web server: A simple HTTP server runs on localhost:8000 and processes file requests (GET).
-UI: The UI, built with Java Swing, allows the user to navigate through the file explorer.
-File Download: Users can download files from the server to their local system by clicking on the file button.
-Recognition
-The backend of this project was provided by the professor and has not been modified in any way.
+## Functions
+- OOP Design: The code is organized using OOP principles, which ensures clean and maintainable code.
+- Web server: A simple HTTP server runs on localhost:8000 and processes file requests (GET).
+- UI: The UI, built with Java Swing, allows the user to navigate through the file explorer.
+- File Download: Users can download files from the server to their local system by clicking on the file button.
 
 ## License
 This project is open source and available under the MIT license.
