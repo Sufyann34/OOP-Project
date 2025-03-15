@@ -1,23 +1,18 @@
-# OOP Datei Explorer
-Dieses Projekt fungiert wie ein Datei Explorer, der in Java entwickelt wurde und OOP nutzen. Es
-simuliert ein Dateisystem, das über eine Webserver Integration und eine UI zugänglich ist. Die 
-Anweldung ermöglicht es dem Benutzer, durch eine hierarchische Ordnerstruktur zu navigieren und
-.txt Dateien herunterzuladen.
+## OOP File Explorer
+This project acts as a file explorer developed in Java and using OOP. It simulates a file system that is accessible via a web server integration and a UI. The application allows the user to navigate through a hierarchical folder structure and download .txt files.
 
-## Wie es funktioniert?
-- Der Backend fungiert als Server Umgebung, in der Dateien gespeichert werden.
-- Die UI ermöglicht es den Nutzen, über Buttons mit Ordnern und Dateien zu interagieren.
-- Benutzer können auf Dateien klicken, um eine Anfrage an der Server zu senden, woaufhin die
-  Dateien in ein lokales Verzeichnis kopiert werden.
+## How does it work?
+The backend acts as a server environment where files are stored.
+The UI allows users to interact with folders and files via buttons.
+Users can click on files to send a request to the server, whereupon the files are copied to a local directory.
 
-## Funktionen
-- **OOP Design:** Der Code ist unter Verwendung von OOP Prinzipien organisiert, was für sauberen und wartbaren Code sorgt.
-- **Webserver:** Ein einfacher HTTP Server läuft auf localhost:8000 und verarbeitet Datei Anfragen (GET).
-- **UI:** Die UI, die mit Java Swing erstellt wurde, ermöglicht es dem Benutzer, durch den Datei Explorer zu navigieren.
-- **Dateidownload:** Benutzer können Dateien vom Server auf ihr lokales System herunterladen, indem sie auf den Datei Button klicken.
+##Functions
+OOP Design: The code is organized using OOP principles, which ensures clean and maintainable code.
+Web server: A simple HTTP server runs on localhost:8000 and processes file requests (GET).
+UI: The UI, built with Java Swing, allows the user to navigate through the file explorer.
+File Download: Users can download files from the server to their local system by clicking on the file button.
+Recognition
+The backend of this project was provided by the professor and has not been modified in any way.
 
-## Anerkennung
-Der Backend dieses Projekts wurde vom Professor bereitgestellt und wurde in keiner Weise verändert.
-
-## Lizenz
-Dieses Projekt ist Open-Source und unter der [MIT-Licence](https://opensource.org/licenses/MIT) verfügbar. 
+## License
+This project is open source and available under the MIT license.
